@@ -1,0 +1,8 @@
+# Unit Test
+pytest
+pytest-cov
+coverage
+coveralls
+
+# Watson
+watson-framework >= 3.5.2
