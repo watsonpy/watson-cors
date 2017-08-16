@@ -1,8 +1,2 @@
-# Unit Test
-pytest
-pytest-cov
-coverage
-coveralls
-
-# Watson
+sphinxcontrib-napoleon
 watson-framework >= 3.5.2
