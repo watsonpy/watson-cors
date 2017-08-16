@@ -63,7 +63,7 @@ with open(os.path.join(path, 'requirements.txt')) as f:
 setup(
     name='watson-cors',
     version=watson.cors.__version__,
-    url='http://github.com/bespohk/watson-cors',
+    url='http://github.com/watsonpy/watson-cors',
     description='CORS support for watson-framework.',
     long_description=readme,
 
