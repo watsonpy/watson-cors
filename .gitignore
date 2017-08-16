@@ -27,6 +27,7 @@ lib
 lib64
 __pycache__
 *.pyc
+.cache
 
 # Installer logs
 pip-log.txt
