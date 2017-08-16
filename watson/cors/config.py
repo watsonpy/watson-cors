@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 defaults = {
     'allow_origin': None,
     'allow_credentials': False,
