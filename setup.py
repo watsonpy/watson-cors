@@ -90,7 +90,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Server'
     ],
-    platforms=['Python 3.4'],
+    platforms=['Python 3.4', 'Python 3.5', 'Python 3.6'],
     keywords=['watson',
               'python3',
               'web framework',

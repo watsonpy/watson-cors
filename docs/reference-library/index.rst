@@ -7,4 +7,4 @@ Reference Library
 .. toctree::
    :maxdepth: 2
 
-   cors
+   cors/*
