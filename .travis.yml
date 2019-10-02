@@ -1,14 +1,14 @@
 language: python
 python:
-    - 3.4
-    - 3.5
-    - 3.6
+  - 3.6
+  - 3.7
+  - 3.8-dev
 install:
-    - pip install -r requirements-test.txt
-    - pip install -r requirements.txt
+  - pip install -r requirements-test.txt
+  - pip install -r requirements.txt
 before_script:
-    - mkdir -p tests/_coverage
+  - mkdir -p tests/_coverage
 script:
-    - py.test tests/ --cov watson --cov-report term-missing
+  - py.test tests/ --cov watson --cov-report term-missing
 after_success:
-    - coveralls --verbose
+  - coveralls --verbose
